@@ -3,14 +3,16 @@
   <head>
     <title>Edsite</title>
     <%= csrf_meta_tags %>
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
-
+    <!-- Custom font imported -->
+    <link href="//fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+  <div class="container">
     <%= yield %>
+    </div>
   </body>
 </html>
