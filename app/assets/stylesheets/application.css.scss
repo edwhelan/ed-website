@@ -21,8 +21,8 @@ h1, h2, h3 {
 	font-family: 'Titillium Web', sans-serif;
 	color: white;
 }
-
-body, .navbar {
+/* gradient by uigradients.com */
+.home-callout, .navbar {
 	background: #5A3F37; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #5A3F37 , #2C7744); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #5A3F37 , #2C7744); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -46,4 +46,11 @@ body, .navbar {
 .navbar-default .navbar-nav > li > a:hover {
   color: white;
   opacity: 0.75;
+}
+
+.home-callout {
+	color: white;
+	margin-top: -20px;
+	padding-top: 50px;
+	padding-bottom: 150px;
 }
